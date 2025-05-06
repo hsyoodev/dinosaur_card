@@ -1,4 +1,5 @@
 import 'package:dinosaur_card/character.dart';
+import 'package:dinosaur_card/mycolumn.dart';
 import 'package:flutter/material.dart';
 
 void main(List<String> args) {
@@ -10,6 +11,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // return MaterialApp(home: MyColumn());
     return MaterialApp(home: Character());
   }
 }

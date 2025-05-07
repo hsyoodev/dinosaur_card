@@ -1,5 +1,6 @@
 import 'package:dinosaur_card/character.dart';
 import 'package:dinosaur_card/mycolumn.dart';
+import 'package:dinosaur_card/paddingtest.dart';
 import 'package:flutter/material.dart';
 
 void main(List<String> args) {
@@ -13,5 +14,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     // return MaterialApp(home: MyColumn());
     return MaterialApp(home: Character());
+    // return MaterialApp(home: Paddingtest());
   }
 }
